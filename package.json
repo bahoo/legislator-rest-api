@@ -1,0 +1,20 @@
+{
+  "name": "legislator-express-api",
+  "version": "0.0.1",
+  "description": "The definitive API resource for Washington US Representatives",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node test | tap-spec"
+  },
+  "author": "Jon Culver <jon.c.culver@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.11.2"
+  },
+  "devDependencies": {
+    "supertest": "^0.15.0",
+    "tap-spec": "^2.2.1",
+    "tape": "^3.5.0"
+  }
+}
