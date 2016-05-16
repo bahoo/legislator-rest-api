@@ -10,7 +10,8 @@
   "author": "Jon Culver <jon.c.culver@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.11.2"
+    "express": "^4.11.2",
+    "body-parser": "^1.15.1"
   },
   "devDependencies": {
     "supertest": "^0.15.0",
