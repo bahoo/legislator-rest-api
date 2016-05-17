@@ -35,7 +35,7 @@ app.post(apiUrlPrefix + '/legislators', function (request, response) {
         var isNew = request.body.hasOwnProperty('id');
         legislatorDb.save(request.body);
         var status = isNew ? 200: 201;
-        response.sendStatus(status);
+        response.status(status).json(request.body);
     } catch (err){
         response.status(500).json({'error': err.message});
     }
